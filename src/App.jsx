@@ -113,7 +113,7 @@ function LoadingOverlay() {
     <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50">
       <div className="bg-white dark:bg-gray-800 rounded-lg p-4 flex items-center gap-3">
         <div className="w-6 h-6 border-2 border-blue-600 dark:border-blue-400 border-t-transparent rounded-full animate-spin"></div>
-        <span className="text-gray-900 dark:text-white font-medium">Loading...</span>
+        <span className="text-gray-900 dark:text-white font-medium">Loading....</span>
       </div>
     </div>
   )
@@ -126,6 +126,7 @@ function App() {
   const [verificationData, setVerificationData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  console.log('[Rendering] App component')
 
   useEffect(() => {
     async function fetchApplicants() {

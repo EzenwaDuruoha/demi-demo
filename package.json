@@ -1,6 +1,6 @@
 {
   "name": "demi-demo",
-  "private": "false",
+  "private": true,
   "version": "0.0.0",
   "homepage": "https://ezenwaduruoha.github.io/demi-demo",
   "type": "module",
