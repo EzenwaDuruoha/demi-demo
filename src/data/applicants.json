@@ -1,0 +1,40 @@
+{
+	"data": [
+		{
+			"applicant_id": "1f02bff2-e06c-6fd3-90fa-3f98e815b857",
+			"type": "Person",
+			"system_info": {},
+			"created_at": "2025-05-08T11:25:43.733055Z",
+			"provided_info": {
+				"full_name": "Ezenwa Duroha",
+				"country": "NG",
+				"dob": "2004-12-01",
+				"gender": "M"
+			},
+			"verification_status": "initial",
+			"aml_screening_enabled": true,
+			"last_aml_screening_id": "0196afa6-6049-7708-a587-f69abe132f75",
+			"last_screened_at": "2025-05-08T11:27:35.868978Z",
+			"last_risk_score": "Low",
+			"last_tags": [
+				"CompanyRegistry",
+				"Associate"
+			],
+			"sandbox": true,
+			"search_options": {
+				"mode": 0,
+				"tags": [],
+				"sources": [],
+				"risk_scores": [],
+				"fuzziness": true,
+				"phonetics": true,
+				"fuzziness_level": 1
+			},
+			"monitoring_started_at": "2025-05-08T11:27:18.638995Z",
+			"monitoring_ends_at": "2026-05-08T11:27:18.638995Z",
+			"aml_autorenewl_enabled": true,
+			"last_aml_search_at": "2025-05-08T11:27:18.626419Z"
+		}
+	],
+	"has_next": false
+}
